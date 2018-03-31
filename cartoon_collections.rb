@@ -4,6 +4,7 @@ def roll_call_dwarves(array)# code an argument here
   array.each_with_index do |name, index|
     new_array << #{index} #{name}
   end
+end
   puts new_array
 end
 
