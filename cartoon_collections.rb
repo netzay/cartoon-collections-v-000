@@ -28,7 +28,7 @@ a = [ "a", "b", "c" ]
 a.include?("b")   #=> true
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if !cheese_types.include?(array)
+  if cheese_types.include?(!array)
     return nil
   end
   cheese_types.include?(array)
