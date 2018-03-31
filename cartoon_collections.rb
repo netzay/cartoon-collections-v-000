@@ -33,4 +33,3 @@ def find_the_cheese(array)
   !cheese_types.include?(array)
     return nil
 end
-end
