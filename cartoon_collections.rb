@@ -33,5 +33,4 @@ def find_the_cheese(array)
   end
   cheese_types.include?(array)
     return cheese_types.first
-  end
 end
