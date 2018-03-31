@@ -31,6 +31,6 @@ def find_the_cheese(array)
   if array.find?(cheese_types)
     return array.first
   else
-  return nil
+    return nil
 end
 end
