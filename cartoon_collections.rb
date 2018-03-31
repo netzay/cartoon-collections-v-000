@@ -11,7 +11,7 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  array.map! { |item, i| x * i }
+  array.map! { |item.capitalize }
   array.collect! {|item| item + "!"}
   return array
 end
