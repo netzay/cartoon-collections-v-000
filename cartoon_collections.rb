@@ -2,9 +2,9 @@ def roll_call_dwarves(array)
   new_array = []
   hash = Hash.new
   array.each_with_index { |name, index|
-    hash[name] = index
+    new_array << hash[name] = index
   }
-  puts #{index+1} #{name}
+  puts new_array
 end
 
 def summon_captain_planet# code an argument here
