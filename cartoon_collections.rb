@@ -3,7 +3,7 @@ def roll_call_dwarves(array)
     puts "No Dwarves."
   else
     spots = []
-    katz_deli.each_with_index do |spot, index|
+    array.each_with_index do |spot, index|
       spots << "#{index+1}. #{spot}"
     end
     puts spots.join(" ")
