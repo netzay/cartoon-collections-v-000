@@ -18,12 +18,13 @@ end
 
 def long_planeteer_calls(array)
   each_call = array.join(",")
-  if array.any? {|word| word.length > 3}
-    return true
-  end
   if array.all? {|word| word.length < 3}
     return false
   end
+  if array.any? {|word| word.length > 3}
+    return true
+  end
+  
   # Your code here
 end
 
