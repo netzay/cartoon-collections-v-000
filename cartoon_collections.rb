@@ -16,12 +16,12 @@ def summon_captain_planet(array)
   return array
 end
 
-def long_planeteer_calls(array)
+def long_planeteer_calls(calls)
   each_call = array.join(",")
-  if array.all? {|word| word.length < 3}
+  if calls.all? {|word| word.length < 3}
     return false
   end
-  if array.any? {|word| word.length > 3}
+  if calls.any? {|word| word.length > 3}
     return true
   end
   
