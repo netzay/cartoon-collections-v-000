@@ -24,7 +24,7 @@ def long_planeteer_calls(calls)
     return true
   end
 end
-@pokey_things.detect{|line| line.include?('e')}  #=> "pole"
+#@pokey_things.detect{|line| line.include?('e')}  #=> "pole"
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.include?(array)
