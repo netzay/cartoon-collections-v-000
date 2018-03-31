@@ -24,11 +24,12 @@ def long_planeteer_calls(calls)
     return true
   end
 end
-
+a = [ "a", "b", "c" ]
+a.include?("b")   #=> true
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if array.include?(cheese_types)
-    return array.first
+  if cheese_types.include?(array)
+    return cheese_types.first
   else
     return nil
 end
