@@ -27,9 +27,8 @@ end
 #@pokey_things.detect{|line| line.include?('e')}  #=> "pole"
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if cheese_types.include?(array)
+  cheese_types.include?(array)
     return cheese_types.first
-  end
   array.detect {|item| item.include?(cheese_types)}
     return nil
   end
