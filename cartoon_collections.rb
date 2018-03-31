@@ -24,7 +24,7 @@ def long_planeteer_calls(calls)
     return true
   end
 end
-(1..10).detect   { |i| i % 5 == 0 and i % 7 == 0 }   #=> nil
+
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.include?(array)
