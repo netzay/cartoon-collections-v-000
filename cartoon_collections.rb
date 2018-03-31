@@ -30,7 +30,7 @@ def find_the_cheese(array)
   if cheese_types.include?(array)
     return cheese_types.first
   end
-  if array.detect {|item| item.include?(cheese_types)}
+  array.detect {|item| item.include?(cheese_types)}
     return nil
   end
 end
