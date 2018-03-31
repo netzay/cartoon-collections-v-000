@@ -21,7 +21,7 @@ def long_planeteer_calls(array)
   if array.any? {|word| word.length > 3}
     return true
   end
-  if array.all? {|word| word.length < 4}
+  if array.all? {|word| word.length < 3}
     return false
   end
   # Your code here
