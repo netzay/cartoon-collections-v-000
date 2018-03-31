@@ -31,5 +31,4 @@ def find_the_cheese(array)
     return cheese_types.first
   array.detect {|item| item.include?(cheese_types)}
     return nil
-  end
 end
