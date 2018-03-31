@@ -31,7 +31,6 @@ def find_the_cheese(array)
   array.each do |item|
     item.include?(cheese_types)
       return cheese_types.first
-    else
-      return nil
     end
+      return nil
 end
