@@ -24,11 +24,11 @@ def long_planeteer_calls(calls)
     return true
   end
 end
-
+@pokey_things.detect{|line| line.include?('e')}  #=> "pole"
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.include?(array)
     return cheese_types.first
-  array.detect(cheese_types)
+  array.detect{|item| item.include?(cheese_types)}
     return nil
 end
