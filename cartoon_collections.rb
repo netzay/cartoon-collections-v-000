@@ -25,6 +25,7 @@ def long_planeteer_calls(calls)
   end
 end
 [1,2,3,4].detect{|i| i.is_a?(String)} #=> nil
+[1,2,3,4].detect{|i| i.is_a?(String)} #=> nil
 
 #@pokey_things.detect{|line| line.include?('e')}  #=> "pole"
 def find_the_cheese(array)
