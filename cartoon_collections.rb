@@ -18,7 +18,7 @@ end
 
 def long_planeteer_calls(array)
   each_call = array.join(",")
-  if each_call.any? {|word| word.length > 3}
+  if array.any? {|word| word.length > 3}
     return true
   else
     return false
